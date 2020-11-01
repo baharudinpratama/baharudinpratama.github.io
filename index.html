@@ -1,11 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello, world!</h1>
-</body>
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <style>
+      /* Google Fonts */
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+      
+      * {
+	      box-sizing: border-box;
+      }
+      body {
+        font-family: 'Montserrat', sans-serif;
+      }
+      section {
+        min-height: 240px;
+      }
+      .jumbotron, .bg-black {
+        background-color: black;
+      }
+      .nav-item {
+        margin-right: 10px;
+      }
+      .icon {
+        height: 50px;
+      }
+    </style>
+    
+		<title>Baharudin's Profile</title>
+	</head>
+	<body class="mt-4 bg-light">
+    
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
+      <div class="container pt-3">
+        <a class="navbar-brand" href="#">My Profile</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" href="#about-me">About Me</a>
+            <a class="nav-item nav-link" href="#skill">Skill</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Jumbotron -->
+    <section id="jumbotron">
+      <div class="jumbotron jumbotron-fluid text-light mb-0">
+        <div class="container text-center mt-5">
+          <img src="../img/profile_photo.jpg" width="300" class="rounded-circle img-thumbnail">
+          <h1 class="display-5 mt-5">I'm Baharudin Pratama</h1>
+          <p class="mt-4 mb-5">Student at Narotama University</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about-me">
+      <div class="container bg-light pt-5">
+        <div class="row">
+          <div class="col text-center my-5">
+            <h3>About Me</h3>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-sm-6 text-center">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat porro asperiores illo sed molestiae iste rem, dicta, a alias ut exercitationem tempore maiores, libero deserunt totam quod placeat! Illo, similique.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skill -->
+    <section id="skill">
+      <div class="container bg-light pt-5">
+        <div class="row">
+          <div class="col text-center my-5">
+            <h3>Skill</h3>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-4 text-center mb-3">
+            <i><img src="../img/html.png" alt="" class="icon"></i>
+            <p class="mt-2 font-weight-bold">HTML</p>
+          </div>
+          <div class="col-4 text-center mb-3">
+            <i><img src="../img/css.png" alt="" class="icon"></i>
+            <p class="mt-2 font-weight-bold">CSS</p>
+          </div>
+          <div class="col-4 text-center mb-3">
+            <i><img src="../img/python.png" alt="" class="icon"></i>
+            <p class="mt-2 font-weight-bold">Python</p>
+          </div>
+          <div class="col-4 text-center mb-3">
+            <i><img src="../img/microsoft-word.png" alt="" class="icon"></i>
+            <p class="mt-2 font-weight-bold">Ms. Word</p>
+          </div>
+          <div class="col-4 text-center mb-3">
+            <i><img src="../img/microsoft-excel.png" alt="" class="icon"></i>
+            <p class="mt-2 font-weight-bold">Ms. Excel</p>
+          </div>
+          <div class="col-4 text-center mb-3">
+            <i><img src="../img/microsoft-powerpoint.png" alt="" class="icon"></i>
+            <p class="mt-2 font-weight-bold">Ms. Powerpoint</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container bg-light pt-5">
+        <div class="row">
+          <div class="col text-center my-5">
+            <h3>Contact Me</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 text-center">
+            <p>Address</p>
+          </div>
+          <div class="col-6 text-center">
+            <p>Social media</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    
+		<!-- jQuery, Popper.js, and Bootstrap JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js" integrity="sha512-7yA/d79yIhHPvcrSiB8S/7TyX0OxlccU8F/kuB8mHYjLlF1MInPbEohpoqfz0AILoq5hoD7lELZAYYHbyeEjag==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+	</body>
 </html>
